@@ -1,0 +1,26 @@
+:root{
+    --Light-red: hsl(356, 100%, 66%);
+    --Very-light-red: hsl(355, 100%, 74%);
+    --Very-dark-blue: hsl(208, 49%, 24%);
+    --White: hsl(0, 0%, 100%);
+    --Grayish-blue: hsl(240, 2%, 79%);
+    --Very-dark-grayish-blue: hsl(207, 13%, 34%);
+    --Very-dark-black-blue: hsl(240, 10%, 16%);
+    --Very-dark-gray-blue: hsl(237, 17%, 21%);
+    --Very-dark-de-saturated-blue: hsl(237, 23%, 32%);
+}
+.app-container{
+    background-image: url("./assets/images/bg-pattern-intro-mobile.svg"), linear-gradient(to left, var(--Light-red), var(--Very-light-red));
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: var(--White);
+    border-bottom-left-radius: 100px;
+    height: 500px;
+}
+
+@media (min-width: 760px){
+    .app-container{
+        height: 400px;
+    }
+}

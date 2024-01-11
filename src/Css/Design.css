@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap');
+
+:root{
+    --Light-red: hsl(356, 100%, 66%);
+    --Very-light-red: hsl(355, 100%, 74%);
+    --Very-dark-blue: hsl(208, 49%, 24%);
+    --White: hsl(0, 0%, 100%);
+    --Grayish-blue: hsl(240, 2%, 79%);
+    --Very-dark-grayish-blue: hsl(207, 13%, 34%);
+    --Very-dark-black-blue: hsl(240, 10%, 16%);
+    --Very-dark-gray-blue: hsl(237, 17%, 21%);
+    --Very-dark-de-saturated-blue: hsl(237, 23%, 32%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Overpass', sans-serif;
+}
+
+.design{
+    font-weight: 600;
+    text-align: center;
+    color: var(--Very-dark-blue);
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img2{
+    display: none;
+}
+
+.editor{
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+    color: var(--Very-dark-blue);
+    margin: 30px 20px;
+}
+
+.para{
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 18px;
+    margin-right: 18px;
+    color: var(--Very-dark-gray-blue);
+}
+
+.manage{
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    color: var(--Very-dark-blue);
+    margin: 30px 20px;
+}
+
+.para2{
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    color: var(--Very-dark-gray-blue);
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+@media (min-width: 1100px){
+    .design{
+        margin-top: 100px;
+        margin-right: 200px;
+    }
+    .intro{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .img1{
+        display: none;
+    }
+
+    .img2{
+        display: block;
+        width: 90%;
+    }
+    
+    .robust{
+        margin-top: 70px;
+        margin-left: 55px;
+        width: 60%;
+    }
+    .editor{
+        text-align: justify;
+    }
+
+    .para{
+        text-align: justify;
+    }
+
+    .manage{
+        text-align: justify;
+    }
+
+    .para2{
+        text-align: justify;
+    }
+}
